@@ -1,0 +1,37 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+      - id: greet-api
+        uri: lb://GREET-APP
+        predicates:
+        - path=/greet
+      - id: greet-api
+        uri: lb://WELCOME-APP
+        predicates: 
+        - path=/welcome
+      
+  application:
+    name: CLOUD-GATEWAYS
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+     
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://localhost:8761/eureka
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        

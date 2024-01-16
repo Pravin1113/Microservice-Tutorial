@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.pravin.constans&apos; to &apos;06-Apache-Kafka-consumer/src/main/java/com.pravin&apos;&#x0D;&#x0A;- Original project: &apos;06-Apache-Kafka-producer&apos;&#x0D;&#x0A;- Destination element: &apos;06-Apache-Kafka-consumer/src/main/java/com.pravin&apos;&#x0D;&#x0A;- Original element: &apos;06-Apache-Kafka-producer/src/main/java/com.pravin.constans&apos;" description="Copy package" destination="=06-Apache-Kafka-consumer/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pravin" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pravin.constans" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1697879033130" version="1.0"/>
+</session>
